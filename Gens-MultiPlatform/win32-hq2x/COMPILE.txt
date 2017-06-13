@@ -1,0 +1,4 @@
+January 28, 2005 - c0d3h4x0r
+
+Nothing under here is part of the win32 build process yet.  That will only 
+happen once this stuff gets merged into the ..\win32 tree.

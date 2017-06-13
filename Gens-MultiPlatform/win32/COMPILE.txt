@@ -1,0 +1,24 @@
+January 28, 2005 - c0d3h4x0r@hotmail.com
+
+To build Gens for Win32, you will need:
+
+	- Microsoft Windows 2000 or later
+	- Microsoft Visual Studio .NET (VS7)
+
+Some people may object to the use of a non-free compiler and make tool.  If so, feel free to create an alternate win32 build process that utilizes free tools such as GCC and GNU make, but DO NOT delete, dismantle, or interfere with the VS.NET build process that exists here.  For official Gens releases, the Microsoft C++ compiler provides far superior optimizations and performance for the compiled Windows binary.
+
+At a Visual Studio command prompt, change to the "win32" folder 
+of the Gens source tree, and then run any of these commands:
+	
+	  (Build debug): nmake               
+	  (Clean debug): nmake clean
+	(Build release): nmake RELEASE=1
+	(Clean release): nmake clean RELEASE=1
+
+Alternatively, you can load the VS.NET solution file Gens.sln into the 
+VS.NET IDE and use the IDE's build commands, which are mapped to the commands
+listed above.
+	
+After your build, the output of win32\debug\gens or win32\release\gens
+will contain all files (built or otherwise) needed to use or 
+redistribute Gens.

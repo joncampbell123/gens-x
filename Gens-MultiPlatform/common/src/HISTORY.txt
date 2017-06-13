@@ -1,0 +1,11 @@
+This file summarize the changes to the common code shared by all platform-specific builds of Gens.
+
+January 30, 2005
+----------------
+
+* Released Gens source code under the GPL.
+
+* Restructured codebase to new multi-platform structure
+  in an effort to encompass all ports of Gens under a single 
+  source tree with shared common code.
+

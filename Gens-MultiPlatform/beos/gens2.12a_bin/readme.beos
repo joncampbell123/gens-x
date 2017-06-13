@@ -1,0 +1,47 @@
+A quick port of Stephane Dallongeville's Gens (Genesis/32x emulator) using the Allegro library.
+
+Info:
+Type gens on the command line for options information.
+
+Features:
+Joystick
+Sound
+Fullscreen
+9 Graphics modes
+Vsync, works best in fullscreen 60hz mode.
+
+What you will need:
+SegaCd bios files with the following names placed in the gens folder,
+jp_mcd1_9112.bin
+us_scd1_9210.bin
+eu_mcd1_9210.bin
+
+32x bios files with the following names placed in the gens folder,
+32X_G_BIOS.BIN
+32X_M_BIOS.BIN
+32X_S_BIOS.BIN
+
+Keys:
+F1 - save state
+F2 - load state
+F3 - decrease state position
+F4 - increase state position
+F5 - reset
+F6 - fps
+F7 - screenshot
+
+Input keys,
+ENTER, RSHIFT, A, S, D, Z, X, C,
+UP, DOWN, LEFT, RIGHT, U, T,
+K, L, M, I, O, P, Y, H, G, J
+
+What's missing:
+Only SegaCd iso/mp3 are supported.
+
+Gens homepage: http://gens.consolemul.com/
+Gens sourceforge: http://sourceforge.net/projects/gens/
+
+email:
+turok2@currantbun.com
+
+Caz

@@ -1,0 +1,6 @@
+#!/bin/sh
+gcc star.c -o star
+star temp.asm -hog -name main68k_
+nasm -f elf temp.asm -o main68k.o
+rm -f temp.asm
+rm -f star
